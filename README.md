@@ -1,46 +1,24 @@
-# Astro Starter Kit: Basics
+# Link Tree
 
-```sh
-npm create astro@latest -- --template basics
-```
+A simple, high-performance link tree built using the Astro framework.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Features
+- **Built with Astro:** Zero-JS by default for maximum speed.
+- **Modern Aesthetic:** Clean and neat colors with professional typography.
+- **Responsive:** Optimized for both mobile and desktop views.
 
-## 🚀 Project Structure
+## Links
+- [Add Link Here]
 
-Inside of your Astro project, you'll see the following folders and files:
+## Setup
+1. **Install dependencies:**
+   ```bash
+   npm install
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+2. **Start development server:**
+    ```bash
+   npm run dev
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+3. **Build for production:**
+    ```bash
+   npm run build
