@@ -1,0 +1,30 @@
+---
+// This component takes two "props" (inputs)
+const { href, title, icon } = Astro.props;
+---
+
+<a href={href} target="_blank" class="link-card">
+  <span>{icon}</span>
+  {title}
+</a>
+
+<style>
+  .link-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    background: #23262d;
+    border: 1px solid #333;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    font-weight: 500;
+  }
+  .link-card:hover {
+    background: #333;
+    border-color: #4f39fa;
+    transform: translateY(-2px);
+  }
+</style>
